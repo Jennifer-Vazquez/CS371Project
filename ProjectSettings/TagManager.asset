@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - barrier
+  - OutofBoundsMsg
+  - Enemy
+  - Bullet
+  - PlayerBullet
+  - Wormhole1
+  - Wormhole2
+  - forcefield
+  - forcefieldinitiator
+  - Mine
+  - BossBullet
+  - Missile
+  - Powerup
+  - HealthPowerup
+  - GasPowerup
+  - deadlysun
+  - PlayerMine
+  - MinePowerup
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Ground
+  - EnemyBullet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
