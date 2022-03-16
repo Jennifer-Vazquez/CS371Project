@@ -12,6 +12,7 @@ public class PlayerControllerCC : MonoBehaviour
     [SerializeField] float _gravity = 2f;
     [SerializeField] float _gravityJumpModifier = 2f;
     [SerializeField] int maxHealth = 100;
+    [SerializeField] float gasPowerUpTime = 15f;
     //[SerializeField] string[] _powerUps;
     public int curHealth = 100;
     public TrackLives lifeTracker;
@@ -189,7 +190,7 @@ public class PlayerControllerCC : MonoBehaviour
 
         if (other.CompareTag("GasPowerup"))
         {
-            countdown.currentTime = Mathf.Min(countdown.duration, countdown.currentTime + 6f);
+            countdown.currentTime = Mathf.Min(countdown.duration, countdown.currentTime + gasPowerUpTime);
             gasSpawner.reset();
         }
         if (other.CompareTag("HealthPowerup"))
