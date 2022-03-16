@@ -19,12 +19,14 @@ public class LaserEnemy : MonoBehaviour
     public Transform shootPoint;
     public ParticleSystem _onHitEffect;
     Transform laserTarget;
+    float startTime;
 
 
     // Start is called before the first frame update
     void Start()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
+        startTime = Time.time;
     }
 
     // Update is called once per frame
@@ -32,7 +34,7 @@ public class LaserEnemy : MonoBehaviour
     {
         if (charging == false)
         {
-            if (playerInView() && firing == false)
+            if (playerInView() && firing == false && ((Time.time - startTime) > 1.0f))
             {
                 charging = true;
                 laserTarget = target.transform;
