@@ -2087,6 +2087,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1436074439617749923, guid: b62f5807da0a4384da1074413f6dca4b, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436074439685621578, guid: b62f5807da0a4384da1074413f6dca4b, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436074440108712781, guid: b62f5807da0a4384da1074413f6dca4b, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436074440598307830, guid: b62f5807da0a4384da1074413f6dca4b, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5532088117582558562, guid: b62f5807da0a4384da1074413f6dca4b, type: 3}
       propertyPath: m_RootOrder
       value: 1

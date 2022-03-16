@@ -1944,6 +1944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tanker - MinePlacer (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6163730002321890997, guid: d986b0372661e634da4f32a23c2bc7b1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6163730002321987601, guid: d986b0372661e634da4f32a23c2bc7b1, type: 3}
       propertyPath: playerTransform
       value: 
@@ -8085,7 +8089,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1261967083292032, guid: 445ae37f24e704de890bbfda1fa7a39c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1261967083292032, guid: 445ae37f24e704de890bbfda1fa7a39c, type: 3}
       propertyPath: m_TagString

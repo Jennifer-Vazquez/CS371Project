@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44958675, g: 0.49665046, b: 0.55951256, a: 1}
+  m_IndirectSpecularColor: {r: 0.44958687, g: 0.4966504, b: 0.5595128, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -180,12 +180,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\nAfter a few seconds of searching, you see 7 \nidentical ships behind
-    you gaining fast. YOu \nbetter find this traslator fast! Ah, there it is \nin
-    the glove compartment. you quickly turn it on.\n\n\"We repeat, We are from dorsal
-    fin galaxy. LAst\nnight you unconsensually placed beer bottles \nin several dolphins
-    blow holes. THis is your \nfinal warning to surrender. 3....2....1\"\n\nBefore
-    you have a chance to respond, they \nbeing to fire missles your way."
+  m_text: "\nAfter a few seconds of searching, you see 5 ships\nbehind you gaining
+    fast. YOu better find this\ntraslator fast! Ah, there it is in the glove compartment.
+    \nyou quickly turn it on.\n\n\"We repeat, We are from dorsal fin galaxy. LAst\nnight
+    you unconsensually placed beer bottles \nin several dolphins blow holes. THis
+    is your \nfinal warning to surrender. 3....2....1\"\n\nBefore you have a chance
+    to respond, they \nbeing to fire missles your way."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b18e86d5a261d4e9ab3d07cc720c96de, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: b18e86d5a261d4e9ab3d07cc720c96de, type: 2}

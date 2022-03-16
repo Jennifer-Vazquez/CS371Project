@@ -969,7 +969,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\n\nLazer powerup gives you\nlazer to use against\nenemies for a limited
-    \namount of time."
+    \namount of time.\n\ne -activate powerup"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b18e86d5a261d4e9ab3d07cc720c96de, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: b18e86d5a261d4e9ab3d07cc720c96de, type: 2}

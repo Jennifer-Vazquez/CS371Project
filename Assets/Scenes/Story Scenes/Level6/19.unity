@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45142627, g: 0.50067574, b: 0.5709975, a: 1}
+  m_IndirectSpecularColor: {r: 0.45142627, g: 0.5006758, b: 0.5709976, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1987,6 +1987,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2371112, guid: c38c830f1a01cc2419486a2e550473ee, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4e1a2f8b73db48b4f81c68e23e158f37, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c38c830f1a01cc2419486a2e550473ee, type: 3}
 --- !u!1001 &1761609342
@@ -2096,9 +2100,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\nJust as your home planet comes into sight, \nsomething else comes into
-    your view. There \nappear to be 5 REptilian ships heading towards \nyour home
-    planet as well. the reptilians are \nyour sworn enemies, it must be an envasion,
-    \nyou have to help!\n"
+    your view. There \nappear to be REptilian ships heading towards \nyour home planet
+    as well. the reptilians are \nyour sworn enemies, it must be an envasion, \nyou
+    have to help!\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b18e86d5a261d4e9ab3d07cc720c96de, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: b18e86d5a261d4e9ab3d07cc720c96de, type: 2}

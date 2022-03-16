@@ -969,8 +969,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\n\nHealth powerup increases \nyour health points\n\nGas powerup increases
-    your \ngas tank \n\nGas and Health increase on \ncollision with powerups\n\ne
-    - activate powerup (for \nfuture powerups)"
+    your \ngas tank \n\nGas and Health increase on \ncollision with powerups\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b18e86d5a261d4e9ab3d07cc720c96de, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: b18e86d5a261d4e9ab3d07cc720c96de, type: 2}
