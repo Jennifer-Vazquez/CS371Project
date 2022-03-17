@@ -692,12 +692,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 7483408279226373580, guid: 30178d32ac6763047be44f29f5a29b7d, type: 3}
+      propertyPath: LoseGasIndex
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7483408279226373580, guid: 30178d32ac6763047be44f29f5a29b7d, type: 3}
       propertyPath: restartLevel
       value: Level7
       objectReference: {fileID: 0}
     - target: {fileID: 7483408279226373580, guid: 30178d32ac6763047be44f29f5a29b7d, type: 3}
       propertyPath: LoseLifeIndex
-      value: 41
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 7483408279226373581, guid: 30178d32ac6763047be44f29f5a29b7d, type: 3}
       propertyPath: m_RootOrder
@@ -749,7 +753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7483408279226373583, guid: 30178d32ac6763047be44f29f5a29b7d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30178d32ac6763047be44f29f5a29b7d, type: 3}

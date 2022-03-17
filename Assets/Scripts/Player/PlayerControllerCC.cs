@@ -234,7 +234,7 @@ public class PlayerControllerCC : MonoBehaviour
         _characterController.enabled = false;
         yield return new WaitForSeconds(0.1f);
         gameObject.transform.position = wormholePos2;
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.5f);
         _characterController.enabled = true;
     }
 
@@ -243,7 +243,7 @@ public class PlayerControllerCC : MonoBehaviour
         _characterController.enabled = false;
         yield return new WaitForSeconds(0.1f);
         gameObject.transform.position = wormholePos1;
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.5f);
         _characterController.enabled = true;
     }
 

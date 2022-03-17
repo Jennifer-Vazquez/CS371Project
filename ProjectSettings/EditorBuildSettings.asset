@@ -129,6 +129,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Story Scenes/Level7/21.unity
     guid: d787383213bf0486295f96aad60d9330
   - enabled: 1
+    path: Assets/Scenes/Levels/Level7.unity
+    guid: 42a8de7afca50154e9b619eff082b16c
+  - enabled: 1
+    path: Assets/Scenes/GameRelatedScenes/WiningGameCutScene.unity
+    guid: 961cd4ccd0c3a4d9cbf379558cdb403c
+  - enabled: 1
     path: Assets/Scenes/LoseLife.unity
     guid: 7b3ae83a1c5424e2d9d563d9cb30026b
   - enabled: 1

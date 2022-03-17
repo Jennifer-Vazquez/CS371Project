@@ -1606,6 +1606,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2371112, guid: c38c830f1a01cc2419486a2e550473ee, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 96187335e0cb98c44aac67a04bb39e15, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c38c830f1a01cc2419486a2e550473ee, type: 3}
 --- !u!1001 &397105602
@@ -6707,12 +6711,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 7483408279226373580, guid: 30178d32ac6763047be44f29f5a29b7d, type: 3}
+      propertyPath: LoseGasIndex
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7483408279226373580, guid: 30178d32ac6763047be44f29f5a29b7d, type: 3}
       propertyPath: restartLevel
       value: level2
       objectReference: {fileID: 0}
     - target: {fileID: 7483408279226373580, guid: 30178d32ac6763047be44f29f5a29b7d, type: 3}
       propertyPath: LoseLifeIndex
-      value: 41
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 7483408279226373581, guid: 30178d32ac6763047be44f29f5a29b7d, type: 3}
       propertyPath: m_RootOrder
