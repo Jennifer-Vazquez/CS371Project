@@ -15,12 +15,13 @@ public class YellowBossController : MonoBehaviour
     [SerializeField] ParticleSystem explosion;
     [SerializeField] GameObject forceField;
 
+
     private int counter = 0;
     [SerializeField] GameObject waveOne;
     [SerializeField] GameObject waveTwo;
     [SerializeField] GameObject waveThree;
 
-
+    public HealthBar hb;
     float _fullHealth;
 
     bool _initHealthyPhase = true;
@@ -32,6 +33,8 @@ public class YellowBossController : MonoBehaviour
     void Start()
     {
         _fullHealth = health;
+        hb.setMaxHealth((int)_fullHealth);
+
 
         // Make all weapons inactive
         farLeftTurret.gameObject.SetActive(false);
@@ -169,7 +172,7 @@ public class YellowBossController : MonoBehaviour
     void HandleDamageCollision(int damage, Vector3 position)
     {
         health -= damage;
-        //  Healthbar for Boss?  hb.setHealth(health);
+        hb.setHealth((int)health);
         ParticleSystem ps = Instantiate(explosion, position, Quaternion.identity);
         ps.Play();
         StartCoroutine(waitForExplosion(ps));

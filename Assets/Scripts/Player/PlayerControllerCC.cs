@@ -13,7 +13,6 @@ public class PlayerControllerCC : MonoBehaviour
     [SerializeField] float _gravityJumpModifier = 2f;
     [SerializeField] int maxHealth = 100;
     [SerializeField] float gasPowerUpTime = 15f;
-    //[SerializeField] string[] _powerUps;
     public int curHealth = 100;
     public TrackLives lifeTracker;
     public HealthBar hb;
