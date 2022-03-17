@@ -22,6 +22,5 @@ public class Countdown : MonoBehaviour
             yield return new WaitForSeconds(1f);
             currentTime--;
         }
-        SceneManager.LoadScene(16);
     }
 }

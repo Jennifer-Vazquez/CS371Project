@@ -53,8 +53,9 @@ public class PlayerControllerCC : MonoBehaviour
 
     void Update()
     {
-
-        gasOut(countdown.currentTime);
+        if(huangsMode == false){
+            gasOut(countdown.currentTime);
+        }
         if (_characterController.isGrounded)
         {
             // We are grounded, so recalculate
@@ -292,12 +293,12 @@ public class PlayerControllerCC : MonoBehaviour
             if (numLives >= 1)
             {
                 Debug.Log("Lives left: " + numLives);
-                SceneManager.LoadScene(43); //LoseLifeGas scene
+                SceneManager.LoadScene(45); //LoseLifeGas scene
             }
             else
             {
                 Debug.Log("die now");
-                SceneManager.LoadScene(42); //Death Screen scene
+                SceneManager.LoadScene(44); //Death Screen scene
             }
         }
     }
